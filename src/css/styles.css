@@ -11,8 +11,28 @@
 @import url('./animations.css');
 
 /* Sections style */
-@import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
 @import url('./back-link.css');
-@import url('./footer.css');
+@import url('./1-gallery.css');
+@import url('./2-form.css');
+
+/* ====== styles HEADER ====== */
+.header {
+  padding: 15px 0;
+}
+.nav-list {
+  display: flex;
+  column-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.nav-item {
+  border: 2px solid #000;
+  border-radius: 8px;
+  width: 135px;
+  font-size: 20px;
+}
+.nav-link {
+  display: block;
+}
+/* ====== /styles HEADER ====== */
